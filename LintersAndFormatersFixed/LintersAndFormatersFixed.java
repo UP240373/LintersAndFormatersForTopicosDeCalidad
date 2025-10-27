@@ -1,3 +1,4 @@
+import animales.Perros;
 /**
  * Clase principal que demuestra el uso de las clases Animales y Perros.
  */

@@ -1,3 +1,4 @@
+package animales;
 /**
  * Clase que representa un perro, hereda atributos de Animales.
  */
