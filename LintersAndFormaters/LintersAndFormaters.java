@@ -36,17 +36,19 @@ animal1.Edad = 4; animal1.mostrarInformacion(); animal1.hacerSonido(); animal1.l
 }} class 
 Animales {
     String Nombre;
-    String Especie;
-    int Edad;
+String Especie;
+                        int Edad;
     Animales(String nombreP, String especieP) {
-    this.Nombre = nombreP;
-    this.Especie = especieP;
+this.Nombre = nombreP;          this.Especie = especieP;
     }
-    void mostrarInformacion() {
-        System.out.println("Nombre: " + this.Nombre);
+void mostrarInformacion() {
+                System.out.println("Nombre: " + this.Nombre);
         System.out.println("Especie: " + this.Especie);
-        System.out.println("Edad: " + this.Edad + " Años");
-    }            public void hacerSonido() { System.out.println(this.Nombre + " hace un sonido."); }
+            System.out.println("Edad: " + this.Edad + " Años");
+    }          
+    
+    
+    public void hacerSonido() { System.out.println(this.Nombre + " hace un sonido."); }
 }
 
 
