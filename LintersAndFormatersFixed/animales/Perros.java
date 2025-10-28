@@ -20,14 +20,14 @@ public class Perros extends Animales {
   /**
    * Hace que el perro emita un gruñido.
    */
-  public void grunido() {
-    super.hacerSonido("Grrr");
+  public void hacerSonido() {
+    System.out.println(super.nombre + " hace un gruñido*");
   }
 
   /**
    * Hace que el perro ladre.
    */
   public void ladrar() {
-    System.out.println("Guau");
+    System.out.println(super.nombre + ": Guau");
   }
 }

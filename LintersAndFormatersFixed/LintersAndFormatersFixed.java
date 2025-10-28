@@ -13,7 +13,7 @@ public class LintersAndFormatersFixed {
 
     animal1.mostrarInformacion();
 
-    animal1.grunido();
+    animal1.hacerSonido();
     animal1.ladrar();
   }
 }

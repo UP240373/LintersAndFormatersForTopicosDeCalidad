@@ -8,7 +8,16 @@ public class Animales {
   public int edad;
 
   /**
-   * Constructor de la clase Animales.
+   * Constructor por defecto de la clase Animales.
+   */
+  public Animales() {
+    this.nombre = "Sin nombre";
+    this.especie = "Desconocida";
+    this.edad = 0;
+  }
+
+  /**
+   * Constructor parametrizado de la clase Animales.
    *
    * @param nombreP  para nombre del animal
    * @param especieP para la especie del animal
@@ -32,7 +41,7 @@ public class Animales {
    *
    * @param sonidoP el sonido que emite el animal
    */
-  public void hacerSonido(String sonidoP) {
-    System.out.println(sonidoP);
+  public void hacerSonido() {
+    System.out.println(this.nombre + " hace un sonido.");
   }
 }
